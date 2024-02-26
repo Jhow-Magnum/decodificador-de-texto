@@ -1,0 +1,66 @@
+/* Estilos globais para a página */
+*{
+  margin:0;
+  padding: 0;
+  
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  /* Adicione outros estilos globais conforme necessário */
+}
+
+.container__main {
+  padding: 5% 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+
+/* Oculta a imagem por padrão */
+.container__img, .container__img__text {
+  align-items: center;
+  text-align: center;
+}
+
+
+
+/* Adiciona estilos para a seção 1 */
+.section__1 {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.container__text-input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Adiciona estilos para a seção 2 */
+.section__2 {
+  width: 100%;
+  max-width: 600px;
+  background-color: aqua;
+  align-items: center;
+
+}
+
+.container__message-input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.container__img__text {
+  text-align: center;
+}
+
+/* Adicione outros estilos específicos conforme necessário */
+
+/* Adicione media queries ou estilos responsivos conforme necessário */
+
